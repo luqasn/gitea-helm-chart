@@ -715,3 +715,7 @@ data:
     ENABLED = false
     ; If you want to add authorization, specify a token here
     TOKEN =
+{{- if .Values.extra_config }}
+
+{{ .Values.extra_config | indent 4 }}
+{{ end }}
