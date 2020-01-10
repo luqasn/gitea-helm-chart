@@ -10,6 +10,7 @@ keywords:
   - wiki
   - gitea
   - gogs
+home: https://github.com/jfelten/gitea-helm-chart
 sources:
   - https://github.com/go-gitea/gitea
   - https://hub.docker.com/r/gitea/gitea/
