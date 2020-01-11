@@ -3,7 +3,7 @@
 ##
 
 images:
-  gitea: "gitea/gitea:v1.11.0-rc1"
+  gitea: "gitea/gitea:1.11.0-rc1"
   postgres: "postgres:11"
   memcached: "memcached:1.5.19-alpine"
   imagePullPolicy: Always
