@@ -1,6 +1,7 @@
 name: gitea
-version: 1.9.3
-appVersion: 1.9.3
+version: v1.11.0-rc1
+appVersion: v1.11.0-rc1
+apiVersion: v1
 description: Git with a cup of tea
 icon: https://docs.gitea.io/images/gitea.png
 keywords:
@@ -10,9 +11,10 @@ keywords:
   - wiki
   - gitea
   - gogs
+home: https://github.com/jfelten/gitea-helm-chart
 sources:
   - https://github.com/go-gitea/gitea
   - https://hub.docker.com/r/gitea/gitea/
 maintainers:
-  - name: John Felten
+  - name: jfelten
     email: john.felten@gmail.com
